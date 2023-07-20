@@ -14,6 +14,9 @@ xorg-server
 openbox
 xorg-fonts-misc
 obconf
+tint2
+nitrogen
+betterlockscreen
 pcmanfm-qt (QT versioon of PCMan FM because GTK Apps dont work properly)
 kitty
 terminator (Optional)
