@@ -15,6 +15,7 @@ openbox
 xorg-fonts-misc
 obconf
 tint2
+rofi
 nitrogen
 betterlockscreen
 pcmanfm-qt (QT versioon of PCMan FM because GTK Apps dont work properly)
