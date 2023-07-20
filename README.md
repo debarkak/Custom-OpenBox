@@ -1,5 +1,7 @@
 # Custom-OpenBox
 A custom OpenBox made by me
+![image](https://github.com/debarkak/Custom-OpenBox/assets/90315363/5541c9bf-1926-4af8-8958-63a374ca51e9)
+
 
 # Setup this custom openbox config 
 
