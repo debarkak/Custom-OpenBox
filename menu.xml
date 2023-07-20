@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="apps-term-menu" label="Terminal">
+		<item label="Terminator">
+			<action name="Execute">
+				<execute>terminator</execute>
+			</action>
+		</item>
+		<item label="Kitty">
+			<action name="Execute">
+				<execute>kitty</execute>
+			</action>
+		</item>
+		<item label="Xterm">
+			<action name="Execute">
+				<command>xterm</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-net-menu" label="Internet">
+		<item label="Brave">
+			<action name="Execute">
+				<execute>brave</execute>
+			</action>
+		</item>
+		<item label="Firefox">
+			<action name="Execute">
+				<command>firefox</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+					<wmclass>Firefox</wmclass>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-office-menu" label="Office">
+		<item label="OpenOffice Base">
+			<action name="Execute">
+				<command>ooffice -base</command>
+			</action>
+		</item>
+		<item label="OpenOffice Calc">
+			<action name="Execute">
+				<command>ooffice -calc</command>
+			</action>
+		</item>
+		<item label="OpenOffice Draw">
+			<action name="Execute">
+				<command>ooffice -draw</command>
+			</action>
+		</item>
+		<item label="OpenOffice Impress">
+			<action name="Execute">
+				<command>ooffice -impress</command>
+			</action>
+		</item>
+		<item label="OpenOffice Math">
+			<action name="Execute">
+				<command>ooffice -math</command>
+			</action>
+		</item>
+		<item label="OpenOffice Writer">
+			<action name="Execute">
+				<command>ooffice -writer</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-multimedia-menu" label="Multimedia">
+		<item label="VLC">
+			<action name="Execute">
+				<execute>vlc</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-fileman-menu" label="File Manager">
+		<item label="PCManFM-qt">
+			<action name="Execute">
+				<execute>pcmanfm-qt</execute>
+			</action>
+		</item>
+	</menu>
+	<menu id="system-menu" label="System">
+		<item label="lxappearance">
+			<action name="Execute">
+				<execute>lxappearance</execute>
+			</action>
+		</item>
+		<item label="Network Manager">
+			<action name="Execute">
+				<execute>kitty nmtui</execute>
+			</action>
+		</item>
+		<item label="Nitrogen">
+			<action name="Execute">
+				<execute>nitrogen</execute>
+			</action>
+		</item>
+		<item label="Lock">
+			<action name="Execute">
+				<execute>betterlockscreen -l</execute>
+			</action>
+		</item>
+		<item label="obmenu">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="Openbox Configuration Manager">
+			<action name="Execute">
+				<command>obconf</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Reconfigure Openbox">
+			<action name="Reconfigure"/>
+		</item>
+	</menu>
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="Applications"/>
+		<menu id="apps-accessories-menu"/>
+		<menu id="apps-editors-menu"/>
+		<menu id="apps-etc" label="Apps">
+			<item label="OBS Studio">
+				<action name="Execute">
+					<execute>obs</execute>
+				</action>
+			</item>
+			<item label="Visual Studio Code">
+				<action name="Execute">
+					<execute>code</execute>
+				</action>
+			</item>
+			<item label="Discord">
+				<action name="Execute">
+					<execute>discord</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="apps-graphics-menu"/>
+		<menu id="apps-net-menu"/>
+		<menu id="apps-office-menu"/>
+		<menu id="apps-multimedia-menu"/>
+		<menu id="apps-term-menu"/>
+		<menu id="apps-fileman-menu"/>
+		<separator label="System"/>
+		<menu id="system-menu"/>
+		<separator/>
+		<item label="Reload">
+			<action name="Restart"/>
+		</item>
+		<item label="Exit ">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
