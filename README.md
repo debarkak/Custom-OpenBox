@@ -29,7 +29,7 @@ obs (Optional)
 obmenu (Available in AUR)
 ```
 
-2. Clone this repo by running ` https://github.com/debarkak/Custom-OpenBox.git ` then copy the files to `~/.config/openbox`
+2. Clone this repo by running `git clone https://github.com/debarkak/Custom-OpenBox.git ` then copy the files to `~/.config/openbox`
 
 ###
    
